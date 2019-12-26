@@ -28,10 +28,10 @@ MultilineMethodCallIndentation:
 Lambda:
   Enabled: false
 
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
 LineLength:
