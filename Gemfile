@@ -13,8 +13,17 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem 'devise'
+gem 'devise-i18n'
+
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'hirb'
+  gem 'pry-byebug'
+  gem 'pry-coolline'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
 end
 
 group :development do
@@ -23,6 +32,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'web-console', '>= 3.3.0'
+  gem 'letter_opener_web'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
