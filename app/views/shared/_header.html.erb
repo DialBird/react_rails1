@@ -1,0 +1,13 @@
+<header class="navbar navbar-light bg-light mb-3">
+  <div class="container">
+    <%= link_to 'React Rails', root_path, class: 'navbar-brand' %>
+    <div class="ml-auto d-flex" id="navbarNavAltMarkup">
+      <% if user_signed_in? %>
+        <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
+      <% else %>
+        <%= link_to 'ログイン', new_user_session_path %>
+        <%= link_to '新規登録', new_user_registration_path, class: 'ml-3' %>
+      <% end %>
+    </div>
+  </div>
+</header>
