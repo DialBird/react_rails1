@@ -1,0 +1,1 @@
+import './custom/parsleyjs.js';

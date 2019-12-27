@@ -1,0 +1,11 @@
+.parsley-error {
+  background: #FFE4E4;
+}
+.parsley-error-list {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  .parsley-error-item {
+    color: $red !important;
+  }
+}
