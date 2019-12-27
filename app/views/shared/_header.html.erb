@@ -1,6 +1,6 @@
 <header class="navbar navbar-light bg-light mb-3">
   <div class="container">
-    <%= link_to 'React Rails', root_path, class: 'navbar-brand' %>
+    <%= link_to 'React Rails', user_root_path, class: 'navbar-brand' %>
     <div class="ml-auto d-flex" id="navbarNavAltMarkup">
       <% if user_signed_in? %>
         <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
