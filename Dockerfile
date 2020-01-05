@@ -1,4 +1,4 @@
-FROM ruby:2.6.1
+FROM ruby:2.6.3
 
 WORKDIR /root/react_rails
 
