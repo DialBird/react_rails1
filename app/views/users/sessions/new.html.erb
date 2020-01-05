@@ -19,7 +19,8 @@
       <%= f.label :remember_me %>
     </div>
   <% end %>
-  <div class="actions">
-    <%= f.submit "Log in", class: 'btn btn-success' %>
+  <div class="actions mb-2">
+    <%= react_component("Button", { label: 'ログイン', class: 'btn btn-success' }) %>
   </div>
+  <%= link_to 'パスワードを忘れた方はこちら', new_user_password_path %>
 <% end %>
