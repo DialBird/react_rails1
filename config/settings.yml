@@ -1,4 +1,4 @@
 email:
   name: myapp
   no_reply: 'no-reply@sample.jp'
-  staging_catcher: keitestimo@gmail.com
+  staging_catcher: dummy@co.jp
